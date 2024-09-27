@@ -1,0 +1,33 @@
+{
+  "originHash" : "e68b836309737e049c9235c607a9002e0196a7a04bc4cd5b9334b2a4d31196fc",
+  "pins" : [
+    {
+      "identity" : "swift-async-algorithms",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-async-algorithms",
+      "state" : {
+        "revision" : "6ae9a051f76b81cc668305ceed5b0e0a7fd93d20",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "swift-collections",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-collections.git",
+      "state" : {
+        "revision" : "671108c96644956dddcd89dd59c203dcdb36cec7",
+        "version" : "1.1.4"
+      }
+    },
+    {
+      "identity" : "vinutility",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vincode-io/VinUtility.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "299d2f57ce1bc124a173996dd13fe1ad3224c66d"
+      }
+    }
+  ],
+  "version" : 3
+}
