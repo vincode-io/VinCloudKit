@@ -43,7 +43,7 @@ public protocol VCKModel: Sendable {
 	var isCloudKitMerging: Bool { get set }
 	
 	func apply(_ error: CKError)
-	func buildRecord() -> CKRecord
+	func buildRecord() -> CKRecord?
 	func clearSyncData()
 	
 }
@@ -206,7 +206,7 @@ public struct CloudKitModelRecordWrapper: VCKModel {
 	
 	public func apply(_ error: CKError) { }
 	
-	public func buildRecord() -> CKRecord {
+	public func buildRecord() -> CKRecord? {
 		return wrapped
 	}
 	

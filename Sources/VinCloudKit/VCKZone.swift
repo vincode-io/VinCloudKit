@@ -227,7 +227,9 @@ public extension VCKZone {
 
 		var recordsToSave = [CKRecord]()
 		for modelToSave in modelsToSave {
-			recordsToSave.append(await modelToSave.buildRecord())
+			if let builtRecord = await modelToSave.buildRecord() {
+				recordsToSave.append(builtRecord)
+			}
 		}
 		
 		return try await withCheckedThrowingContinuation { continuation in
