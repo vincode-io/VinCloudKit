@@ -271,7 +271,7 @@ public extension VCKZone {
 						savesToRetry.append((recordID, ckError))
 					default:
 						// Won't sync and I don't know why
-						if let errorDescription = ckError.errorDescription {
+						if let errorDescription = VCKError.ckError(ckError).errorDescription {
 							self.logger.error("Unhandled per record error:  \(errorDescription, privacy: .public).")
 						}
 						perRecordError = error
