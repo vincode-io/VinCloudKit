@@ -88,6 +88,9 @@
     "Service Unavailable: Please try again." : {
       "comment" : "Known iCloud Error"
     },
+    "The iCloud Account is temporarily unavailable." : {
+      "comment" : "Known iCloud Error"
+    },
     "The iCloud data was deleted.  Please remove the application iCloud account and add it again to continue using the application's iCloud support." : {
       "comment" : "Error Message: User deleted zone."
     },

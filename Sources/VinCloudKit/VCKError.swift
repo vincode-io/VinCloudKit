@@ -28,6 +28,8 @@ public enum VCKError: LocalizedError {
 									 comment: "Error Message: Max child count exceeeded.")
 		case .ckError(let ckError):
 			switch ckError.code {
+			case .accountTemporarilyUnavailable:
+				return String(localized: "The iCloud Account is temporarily unavailable.", comment: "Known iCloud Error")
 			case .alreadyShared:
 				return String(localized: "Already Shared: a record or share cannot be saved because doing so would cause the same hierarchy of records to exist in multiple shares.", comment: "Known iCloud Error")
 			case .assetFileModified:
