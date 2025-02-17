@@ -1,122 +1,902 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Already Shared: a record or share cannot be saved because doing so would cause the same hierarchy of records to exist in multiple shares." : {
-      "comment" : "Known iCloud Error"
+    "error.text.account-temporarily-unavailable" : {
+      "comment" : "Error Message: The iCloud Account is temporarily unavailable.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The iCloud Account is temporarily unavailable."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The iCloud Account is temporarily unavailable."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The iCloud Account is temporarily unavailable."
+          }
+        }
+      }
     },
-    "An unexpected CloudKit error occurred." : {
-      "comment" : "Error Message: An unexpected CloudKit error occurred."
+    "error.text.already-shared" : {
+      "comment" : "Error Message: Already Shared: a record or share cannot be saved because doing so would cause the same hierarchy of records to exist in multiple shares.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A record or share cannot be saved because doing so would cause the same hierarchy of records to exist in multiple shares."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A record or share cannot be saved because doing so would cause the same hierarchy of records to exist in multiple shares."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A record or share cannot be saved because doing so would cause the same hierarchy of records to exist in multiple shares."
+          }
+        }
+      }
     },
-    "Asset File Modified: the content of the specified asset file was modified while being saved." : {
-      "comment" : "Known iCloud Error"
+    "error.text.asset-file-modified" : {
+      "comment" : "Error Message: Asset File Modified: the content of the specified asset file was modified while being saved.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asset File Modified: the content of the specified asset file was modified while being saved."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asset File Modified: the content of the specified asset file was modified while being saved."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asset File Modified: the content of the specified asset file was modified while being saved."
+          }
+        }
+      }
     },
-    "Asset File Not Found: the specified asset file is not found." : {
-      "comment" : "Known iCloud Error"
+    "error.text.asset-file-not-found" : {
+      "comment" : "Error Message: Asset File Not Found: the specified asset file is not found.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asset File Not Found: the specified asset file is not found."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asset File Not Found: the specified asset file is not found."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asset File Not Found: the specified asset file is not found."
+          }
+        }
+      }
     },
-    "Bad Container: the specified container is unknown or unauthorized." : {
-      "comment" : "Known iCloud Error"
+    "error.text.bad-container" : {
+      "comment" : "Error Message: Bad Container: the specified container is unknown or unauthorized.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bad Container: the specified container is unknown or unauthorized."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bad Container: the specified container is unknown or unauthorised."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bad Container: the specified container is unknown or unauthorised."
+          }
+        }
+      }
     },
-    "Bad Database: the operation could not be completed on the given database." : {
-      "comment" : "Known iCloud Error"
+    "error.text.bad-database" : {
+      "comment" : "Error Message: Bad Database: the operation could not be completed on the given database.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bad Database: the operation could not be completed on the given database."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bad Database: the operation could not be completed on the given database."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bad Database: the operation could not be completed on the given database."
+          }
+        }
+      }
     },
-    "Batch Request Failed: the entire batch was rejected." : {
-      "comment" : "Known iCloud Error"
+    "error.text.batch-request-failed" : {
+      "comment" : "Error Message: Batch Request Failed: the entire batch was rejected.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batch Request Failed: the entire batch was rejected."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batch Request Failed: the entire batch was rejected."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batch Request Failed: the entire batch was rejected."
+          }
+        }
+      }
     },
-    "Change Token Expired: the previous server change token is too old." : {
-      "comment" : "Known iCloud Error"
+    "error.text.change-token-expired" : {
+      "comment" : "Error Message: Change Token Expired: the previous server change token is too old.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change Token Expired: the previous server change token is too old."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change Token Expired: the previous server change token is too old."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change Token Expired: the previous server change token is too old."
+          }
+        }
+      }
     },
-    "Constraint Violation: the server rejected the request because of a conflict with a unique field." : {
-      "comment" : "Known iCloud Error"
+    "error.text.constraint-violation" : {
+      "comment" : "Error Message: Constraint Violation: the server rejected the request because of a conflict with a unique field.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Constraint Violation: the server rejected the request because of a conflict with a unique field."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Constraint Violation: the server rejected the request because of a conflict with a unique field."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Constraint Violation: the server rejected the request because of a conflict with a unique field."
+          }
+        }
+      }
     },
-    "Incompatible Version: your app version is older than the oldest version allowed." : {
-      "comment" : "Known iCloud Error"
+    "error.text.corrupt-account" : {
+      "comment" : "Error Message: There is an unrecoverable problem with your application iCloud account. Please make sure you have iCloud and iCloud Drive enabled in System Preferences. Then remove the application iCloud account and add it again.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There is an unrecoverable problem with your application iCloud account. Please make sure you have iCloud and iCloud Drive enabled in System Preferences. Then remove the application iCloud account and add it again."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There is an unrecoverable problem with your application iCloud account. Please make sure you have iCloud and iCloud Drive enabled in System Preferences. Then remove the application iCloud account and add it again."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There is an unrecoverable problem with your application iCloud account. Please make sure you have iCloud and iCloud Drive enabled in System Preferences. Then remove the application iCloud account and add it again."
+          }
+        }
+      }
     },
-    "Internal Error: a nonrecoverable error was encountered by CloudKit." : {
-      "comment" : "Known iCloud Error"
+    "error.text.incompatible-version" : {
+      "comment" : "Error Message: Incompatible Version: your app version is older than the oldest version allowed.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incompatible Version: your app version is older than the oldest version allowed."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incompatible Version: your app version is older than the oldest version allowed."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incompatible Version: your app version is older than the oldest version allowed."
+          }
+        }
+      }
     },
-    "Invalid Arguments: the specified request contains bad information." : {
-      "comment" : "Known iCloud Error"
+    "error.text.internal-error" : {
+      "comment" : "Error Message: Internal Error: a nonrecoverable error was encountered by CloudKit.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Internal Error: a non-recoverable error was encountered by CloudKit."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Internal Error: a non-recoverable error was encountered by CloudKit."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Internal Error: a non-recoverable error was encountered by CloudKit."
+          }
+        }
+      }
     },
-    "Limit Exceeded: the request to the server is too large." : {
-      "comment" : "Known iCloud Error"
+    "error.text.invalid-arguments" : {
+      "comment" : "Error Message: Invalid Arguments: the specified request contains bad information.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid Arguments: the specified request contains bad information."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid Arguments: the specified request contains bad information."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid Arguments: the specified request contains bad information."
+          }
+        }
+      }
     },
-    "Managed Account Restricted: the request was rejected due to a managed-account restriction." : {
-      "comment" : "Known iCloud Error"
+    "error.text.limit-exceeded" : {
+      "comment" : "Error Message: Limit Exceeded: the request to the server is too large.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limit Exceeded: the request to the server is too large."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limit Exceeded: the request to the server is too large."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limit Exceeded: the request to the server is too large."
+          }
+        }
+      }
     },
-    "Missing Entitlement: the app is missing a required entitlement." : {
-      "comment" : "Known iCloud Error"
+    "error.text.managed-account-restricted" : {
+      "comment" : "Error Message: Managed Account Restricted: the request was rejected due to a managed-account restriction.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Managed Account Restricted: the request was rejected due to a managed-account restriction."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Managed Account Restricted: the request was rejected due to a managed-account restriction."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Managed Account Restricted: the request was rejected due to a managed-account restriction."
+          }
+        }
+      }
     },
-    "Network Failure: the internet connection appears to be offline." : {
-      "comment" : "Known iCloud Error"
+    "error.text.max-child-count-exceeded" : {
+      "comment" : "Error Message: The maximum number of child rows that iCloud can sync is 750. This limit has been exceeded. Please reduce the number of child rows to continue syncing.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The maximum number of child rows that iCloud can sync is 750. This limit has been exceeded. Please reduce the number of child rows to continue syncing."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The maximum number of child rows that iCloud can sync is 750. This limit has been exceeded. Please reduce the number of child rows to continue syncing."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The maximum number of child rows that iCloud can sync is 750. This limit has been exceeded. Please reduce the number of child rows to continue syncing."
+          }
+        }
+      }
     },
-    "Network Unavailable: the internet connection appears to be offline." : {
-      "comment" : "Known iCloud Error"
+    "error.text.missing-entitlement" : {
+      "comment" : "Error Message: Missing Entitlement: the app is missing a required entitlement.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missing Entitlement: the app is missing a required entitlement."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missing Entitlement: the app is missing a required entitlement."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missing Entitlement: the app is missing a required entitlement."
+          }
+        }
+      }
     },
-    "Not Authenticated: to use the iCloud account, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled." : {
-      "comment" : "Known iCloud Error"
+    "error.text.network-failure" : {
+      "comment" : "Error Message: Network Failure: the internet connection appears to be offline.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Network Failure: the internet connection appears to be offline."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Network Failure: the internet connection appears to be offline."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Network Failure: the internet connection appears to be offline."
+          }
+        }
+      }
     },
-    "Operation Cancelled: the operation was explicitly canceled." : {
-      "comment" : "Known iCloud Error"
+    "error.text.network-unavailable" : {
+      "comment" : "Error Message: Network Unavailable: the internet connection appears to be offline.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Network Unavailable: the internet connection appears to be offline."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Network Unavailable: the internet connection appears to be offline."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Network Unavailable: the internet connection appears to be offline."
+          }
+        }
+      }
     },
-    "Partial Failure: some items failed, but the operation succeeded overall." : {
-      "comment" : "Known iCloud Error"
+    "error.text.not-authenticated" : {
+      "comment" : "Error Message: Not Authenticated: to use the iCloud account, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not Authenticated: to use the iCloud account, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not Authenticated: to use the iCloud account, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not Authenticated: to use the iCloud account, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled."
+          }
+        }
+      }
     },
-    "Participant May Need Verification: you are not a member of the share." : {
-      "comment" : "Known iCloud Error"
+    "error.text.operation-canceled" : {
+      "comment" : "Error Message: Operation Canceled: the operation was explicitly canceled.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Operation Canceled: the operation was explicitly canceled."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Operation Cancelled: the operation was explicitly cancelled."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Operation Cancelled: the operation was explicitly cancelled."
+          }
+        }
+      }
     },
-    "Permission Failure: to use this app, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled." : {
-      "comment" : "Known iCloud Error"
+    "error.text.partial-failure" : {
+      "comment" : "Error Message: Partial Failure: some items failed, but the operation succeeded overall.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partial Failure: some items failed, but the operation succeeded overall."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partial Failure: some items failed, but the operation succeeded overall."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partial Failure: some items failed, but the operation succeeded overall."
+          }
+        }
+      }
     },
-    "Quota Exceeded: saving would exceed your current iCloud storage quota." : {
-      "comment" : "Known iCloud Error"
+    "error.text.participant-may-need-verification" : {
+      "comment" : "Error Message: Participant May Need Verification: you are not a member of the share.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Participant May Need Verification: you are not a member of the share."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Participant May Need Verification: you are not a member of the share."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Participant May Need Verification: you are not a member of the share."
+          }
+        }
+      }
     },
-    "Reference Violation: the target of a record's parent or share reference was not found." : {
-      "comment" : "Known iCloud Error"
+    "error.text.permission-failure" : {
+      "comment" : "Error Message: Permission Failure: to use this app, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permission Failure: to use this app, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permission Failure: to use this app, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permission Failure: to use this app, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled."
+          }
+        }
+      }
     },
-    "Request Rate Limited: transfers to and from the server are being rate limited at this time." : {
-      "comment" : "Known iCloud Error"
+    "error.text.quota-exceeded" : {
+      "comment" : "Error Message: Quota Exceeded: saving would exceed your current iCloud storage quota.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quota Exceeded: saving would exceed your current iCloud storage quota."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quota Exceeded: saving would exceed your current iCloud storage quota."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quota Exceeded: saving would exceed your current iCloud storage quota."
+          }
+        }
+      }
     },
-    "Server Record Changed: the record was rejected because the version on the server is different." : {
-      "comment" : "Known iCloud Error"
+    "error.text.reference-violation" : {
+      "comment" : "Error Message: Reference Violation: the target of a record's parent or share reference was not found.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reference Violation: the target of a record's parent or share reference was not found."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reference Violation: the target of a record's parent or share reference was not found."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reference Violation: the target of a record's parent or share reference was not found."
+          }
+        }
+      }
     },
-    "Server Rejected Request" : {
-      "comment" : "Known iCloud Error"
+    "error.text.request-rate-limited" : {
+      "comment" : "Error Message: Request Rate Limited: transfers to and from the server are being rate limited at this time.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Request Rate Limited: transfers to and from the server are being rate limited at this time."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Request Rate Limited: transfers to and from the server are being rate limited at this time."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Request Rate Limited: transfers to and from the server are being rate limited at this time."
+          }
+        }
+      }
     },
-    "Server Response Lost" : {
-      "comment" : "Known iCloud Error"
+    "error.text.server-record-changed" : {
+      "comment" : "Error Message: Server Record Changed: the record was rejected because the version on the server is different.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server Record Changed: the record was rejected because the version on the server is different."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server Record Changed: the record was rejected because the version on the server is different."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server Record Changed: the record was rejected because the version on the server is different."
+          }
+        }
+      }
     },
-    "Service Unavailable: Please try again." : {
-      "comment" : "Known iCloud Error"
+    "error.text.server-rejected-request" : {
+      "comment" : "Error Message: Server Rejected Request",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server Rejected Request"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server Rejected Request"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server Rejected Request"
+          }
+        }
+      }
     },
-    "The iCloud Account is temporarily unavailable." : {
-      "comment" : "Known iCloud Error"
+    "error.text.server-response-lost" : {
+      "comment" : "Error Message: Server Response Lost",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server Response Lost"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server Response Lost"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server Response Lost"
+          }
+        }
+      }
     },
-    "The iCloud data was deleted.  Please remove the application iCloud account and add it again to continue using the application's iCloud support." : {
-      "comment" : "Error Message: User deleted zone."
+    "error.text.service-unavailable" : {
+      "comment" : "Error Message: Service Unavailable: Please try again.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Service Unavailable: Please try again."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Service Unavailable: Please try again."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Service Unavailable: Please try again."
+          }
+        }
+      }
     },
-    "The maximum number of child rows that iCloud can sync is 750. This limit has been exceeded. Please reduce the number of child rows to continue syncing." : {
-      "comment" : "Error Message: Max child count exceeeded."
+    "error.text.too-many-participants" : {
+      "comment" : "Error Message: Too Many Participants: a share cannot be saved because too many participants are attached to the share.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Too Many Participants: a share cannot be saved because too many participants are attached to the share."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Too Many Participants: a share cannot be saved because too many participants are attached to the share."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Too Many Participants: a share cannot be saved because too many participants are attached to the share."
+          }
+        }
+      }
     },
-    "There is an unrecoverable problem with your application iCloud account. Please make sure you have iCloud and iCloud Drive enabled in System Preferences. Then remove the application iCloud account and add it again." : {
-      "comment" : "Error Message: Corrupt account."
+    "error.text.unexpected-cloudkit-error" : {
+      "comment" : "Error Message: An unexpected CloudKit error occurred.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An unexpected CloudKit error occurred."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An unexpected CloudKit error occurred."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An unexpected CloudKit error occurred."
+          }
+        }
+      }
     },
-    "Too Many Participants: a share cannot be saved because too many participants are attached to the share." : {
-      "comment" : "Known iCloud Error"
+    "error.text.unknown-cloudkit-error" : {
+      "comment" : "Error Message: Unknown iCloud Error",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown iCloud Error"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown iCloud Error"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown iCloud Error"
+          }
+        }
+      }
     },
-    "Unhandled Error." : {
-      "comment" : "Unknown iCloud Error"
+    "error.text.unknown-item" : {
+      "comment" : "Error Message: Unknown Item: the specified record does not exist.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown Item: the specified record does not exist."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown Item: the specified record does not exist."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown Item: the specified record does not exist."
+          }
+        }
+      }
     },
-    "Unknown Item:  the specified record does not exist." : {
-      "comment" : "Known iCloud Error"
+    "error.text.user-deleted-data" : {
+      "comment" : "Error Message: The iCloud data was deleted.  Please remove the application iCloud account and add it again to continue using the application's iCloud support.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The iCloud data was deleted.  Please remove the application iCloud account and add it again to continue using the application's iCloud support."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The iCloud data was deleted.  Please remove the application iCloud account and add it again to continue using the application's iCloud support."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The iCloud data was deleted.  Please remove the application iCloud account and add it again to continue using the application's iCloud support."
+          }
+        }
+      }
     },
-    "User Deleted Zone: the user has deleted this zone from the settings UI." : {
-      "comment" : "Known iCloud Error"
+    "error.text.user-deleted-zone" : {
+      "comment" : "Error Message: User Deleted Zone: the user has deleted this zone from the Settings UI.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "User Deleted Zone: the user has deleted this zone from the Settings UI."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "User Deleted Zone: the user has deleted this zone from the Settings UI."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "User Deleted Zone: the user has deleted this zone from the Settings UI."
+          }
+        }
+      }
     },
-    "Zone Busy: the server is too busy to handle the zone operation." : {
-      "comment" : "Known iCloud Error"
+    "error.text.zone-busy" : {
+      "comment" : "Error Message: Zone Busy: the server is too busy to handle the zone operation.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zone Busy: the server is too busy to handle the zone operation."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zone Busy: the server is too busy to handle the zone operation."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zone Busy: the server is too busy to handle the zone operation."
+          }
+        }
+      }
     },
-    "Zone Not Found: the specified record zone does not exist on the server." : {
-      "comment" : "Known iCloud Error"
+    "error.text.zone-not-found" : {
+      "comment" : "Error Message: Zone Not Found: the specified record zone does not exist on the server.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zone Not Found: the specified record zone does not exist on the server."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zone Not Found: the specified record zone does not exist on the server."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zone Not Found: the specified record zone does not exist on the server."
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
