@@ -267,6 +267,11 @@ public extension VCKZone {
 						Task {
 							await delegate?.delete(recordID)
 						}
+					case .referenceViolation:
+						// The record's parent was deleted and the record should be deleted as well
+						Task {
+							await delegate?.delete(recordID)
+						}
 					case .limitExceeded:
 						perRecordError = VCKError.maxChildCountExceeded
 						op.cancel()
