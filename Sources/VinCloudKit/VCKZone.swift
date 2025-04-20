@@ -32,6 +32,7 @@ public protocol VCKZoneDelegate: Sendable {
 	func store(changeToken: Data?, key: VCKChangeTokenKey) async
 	func findChangeToken(key: VCKChangeTokenKey) async -> Data?
 	func cloudKitDidModify(changed: [CKRecord], deleted: [CloudKitRecordKey]) async throws;
+	func delete(_: CKRecord.ID) async;
 }
 
 public typealias CloudKitRecordKey = (recordType: CKRecord.RecordType, recordID: CKRecord.ID)
@@ -262,8 +263,10 @@ public extension VCKZone {
 						// Nothing wrong with this record, it was just part of the batch that failed.
 						savesToRetry.append((recordID, nil))
 					case .unknownItem:
-						// The record was deleted by another device or user, so don't try to update it.
-						break
+						// The record was deleted by another device or user, so we need to delete it locally.
+						Task {
+							await delegate?.delete(recordID)
+						}
 					case .limitExceeded:
 						perRecordError = VCKError.maxChildCountExceeded
 						op.cancel()
