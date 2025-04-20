@@ -262,7 +262,8 @@ public extension VCKZone {
 						// Nothing wrong with this record, it was just part of the batch that failed.
 						savesToRetry.append((recordID, nil))
 					case .unknownItem:
-						savesToRetry.append((recordID, ckError))
+						// The record was deleted by another device or user, so don't try to update it.
+						break
 					case .limitExceeded:
 						perRecordError = VCKError.maxChildCountExceeded
 						op.cancel()
@@ -348,7 +349,7 @@ public extension VCKZone {
 							self.logger.info("\(modelsToSave.count, privacy: .public) records resolved. Attempting Modify again...")
 							
 							do {
-								let result = try await self.modify(modelsToSave: modelsToSave, recordIDsToDelete: recordIDsToDelete, strategy: .overWriteServerValue)
+								let result = try await self.modify(modelsToSave: modelsToSave, recordIDsToDelete: recordIDsToDelete, strategy: strategy)
 								continuation.resume(returning: result)
 							} catch {
 								continuation.resume(throwing: error)
@@ -384,7 +385,7 @@ public extension VCKZone {
 							self.logger.info("Modify failed. \(modelsToRetry.count, privacy: .public) records resolved. Attempting Modify again...")
 
 							do {
-								let result = try await self.modify(modelsToSave: modelsToRetry, recordIDsToDelete: deletesToSend, strategy: .overWriteServerValue)
+								let result = try await self.modify(modelsToSave: modelsToRetry, recordIDsToDelete: deletesToSend, strategy: strategy)
 								continuation.resume(returning: result)
 							} catch {
 								continuation.resume(throwing: error)
