@@ -157,7 +157,7 @@ private extension VCKModel {
 				while clientOffsetChanges.count <= offset {
 					clientOffsetChanges.append(clientOffsetChanges.last ?? 0)
 				}
-				adjuster -= 1
+				adjuster = adjuster > 1 ? adjuster - 1 : 0
 				clientOffsetChanges.append(adjuster)
 			}
 		}
