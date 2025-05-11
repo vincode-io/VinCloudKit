@@ -124,7 +124,14 @@ public extension VCKModel {
 				switch diff {
 				case .insert(let offset, let value, let associated):
 					let (_, newOffset) = computeClientOffset(clientOffsetChanges: clientOffsetChanges, maxLength: merged.count, offset: offset, associated: associated)
-					merged.insert(value, at: newOffset)
+
+					// If the entry is a new server entry or if it is a server move that was not removed
+					// on the client, it is okay to be inserted into the merged array.
+					if associated == nil {
+						merged.insert(value, at: newOffset)
+					} else if client.firstIndex(of: value) != nil {
+						merged.insert(value, at: newOffset)
+					}
 				case .remove(_, let value, _):
 					merged.removeFirst(object: value)
 				}

@@ -77,6 +77,66 @@ final class VCKModelTests {
 		#expect(merged == ["d", "c", "a", "b"])
 	}
 
+	@Test func resolveOrderedSetConflictMergeElementMoveAndClientDelete1() throws {
+		let client: OrderedSet<String>? = ["a", "b", "c"]
+		let ancestor: OrderedSet<String>? = ["a", "b", "c", "d"]
+		let server: OrderedSet<String>? = ["a", "b", "d", "c"]
+
+		let merged = MockModel().merge(client: client, ancestor: ancestor, server: server)
+		
+		#expect(merged == ["a", "b", "c"])
+	}
+
+	@Test func resolveOrderedSetConflictMergeElementMoveAndServerDelete1() throws {
+		let client: OrderedSet<String>? = ["a", "b", "d", "c"]
+		let ancestor: OrderedSet<String>? = ["a", "b", "c", "d"]
+		let server: OrderedSet<String>? = ["a", "b", "c"]
+
+		let merged = MockModel().merge(client: client, ancestor: ancestor, server: server)
+		
+		#expect(merged == ["a", "b", "c"])
+	}
+
+	@Test func resolveOrderedSetConflictMergeElementMoveAndClientDelete2() throws {
+		let client: OrderedSet<String>? = ["b", "c", "d"]
+		let ancestor: OrderedSet<String>? = ["a", "b", "c", "d"]
+		let server: OrderedSet<String>? = ["a", "b", "d", "c"]
+
+		let merged = MockModel().merge(client: client, ancestor: ancestor, server: server)
+		
+		#expect(merged == ["b", "d", "c"])
+	}
+
+	@Test func resolveOrderedSetConflictMergeElementMoveAndServerDelete2() throws {
+		let client: OrderedSet<String>? = ["a", "b", "d", "c"]
+		let ancestor: OrderedSet<String>? = ["a", "b", "c", "d"]
+		let server: OrderedSet<String>? = ["b", "c", "d"]
+
+		let merged = MockModel().merge(client: client, ancestor: ancestor, server: server)
+		
+		#expect(merged == ["b", "d", "c"])
+	}
+
+	@Test func resolveOrderedSetConflictMergeElementMoveAndClientDelete3() throws {
+		let client: OrderedSet<String>? = ["b", "d"]
+		let ancestor: OrderedSet<String>? = ["a", "b", "c", "d"]
+		let server: OrderedSet<String>? = ["d", "c", "b", "a"]
+
+		let merged = MockModel().merge(client: client, ancestor: ancestor, server: server)
+		
+		#expect(merged == ["d", "b"])
+	}
+
+	@Test func resolveOrderedSetConflictMergeElementMoveAndServerDelete3() throws {
+		let client: OrderedSet<String>? = ["d", "c", "b", "a"]
+		let ancestor: OrderedSet<String>? = ["a", "b", "c", "d"]
+		let server: OrderedSet<String>? = ["d", "b"]
+
+		let merged = MockModel().merge(client: client, ancestor: ancestor, server: server)
+		
+		#expect(merged == ["d", "b"])
+	}
+
 }
 
 @MainActor
