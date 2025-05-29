@@ -11,17 +11,27 @@ import OrderedCollections
 @MainActor
 final class VCKModelTests {
 	
-	@Test func resolveOrderedSetConflictServerWins() throws {
-		let client: OrderedSet<String>? = ["a", "b", "c", "d", "e"]
+	@Test func resolveOrderedSetConflictNoClientChanges1() throws {
+		let client: OrderedSet<String>? = ["a", "b", "c", "e", "d"]
 		let ancestor: OrderedSet<String>? = nil
-		let server: OrderedSet<String>? = ["a", "b", "c", "e", "d"]
+		let server: OrderedSet<String>? = ["a", "b", "c", "d", "e"]
 		
 		let merged = MockModel().merge(client: client, ancestor: ancestor, server: server)
 		
-		#expect(merged == ["a", "b", "c", "e", "d"])
+		#expect(merged == ["a", "b", "c", "d", "e"])
 	}
 	
-	@Test func resolveOrderedSetConflictClientWins() throws {
+	@Test func resolveOrderedSetConflictNoClientChanges2() throws {
+		let client: OrderedSet<String>? = ["a", "b", "c", "d", "e"]
+		let ancestor: OrderedSet<String>? = nil
+		let server: OrderedSet<String>? = ["z"]
+		
+		let merged = MockModel().merge(client: client, ancestor: ancestor, server: server)
+		
+		#expect(merged == ["z"])
+	}
+	
+	@Test func resolveOrderedSetConflictNoServerData() throws {
 		let client: OrderedSet<String>? = ["a", "b", "c", "d", "e"]
 		var ancestor: OrderedSet<String>? = nil
 		let server: OrderedSet<String>? = nil
