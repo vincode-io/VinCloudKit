@@ -13,7 +13,7 @@ let package = Package(
 			targets: ["VinCloudKit"]),
 	],
 	dependencies: [
-		.package(url: "https://github.com/vincode-io/VinUtility.git", branch: "main"),
+		.package(url: "https://github.com/vincode-io/VinUtility.git", branch: "release"),
 	],
 	targets: [
 		.target(
