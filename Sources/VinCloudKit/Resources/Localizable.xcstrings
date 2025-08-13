@@ -21,6 +21,12 @@
             "state" : "translated",
             "value" : "The iCloud Account is temporarily unavailable."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das iCloud-Konto ist vorübergehend nicht verfügbar."
+          }
         }
       }
     },
@@ -43,6 +49,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A record or share cannot be saved because doing so would cause the same hierarchy of records to exist in multiple shares."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Datensatz oder eine Freigabe kann nicht gespeichert werden, da dies dazu führen würde, dass dieselbe Hierarchie von Datensätzen in mehreren Freigaben existiert."
           }
         }
       }
@@ -67,6 +79,12 @@
             "state" : "translated",
             "value" : "Asset File Modified: the content of the specified asset file was modified while being saved."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asset-Datei verändert: Der Inhalt der angegebenen Asset-Datei wurde während des Speicherns verändert."
+          }
         }
       }
     },
@@ -89,6 +107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Asset File Not Found: the specified asset file is not found."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asset-Datei nicht gefunden: Die angegebene Asset-Datei wurde nicht gefunden."
           }
         }
       }
@@ -113,6 +137,12 @@
             "state" : "translated",
             "value" : "Bad Container: the specified container is unknown or unauthorised."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültiger Container: Der angegebene Container ist unbekannt oder nicht autorisiert."
+          }
         }
       }
     },
@@ -135,6 +165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bad Database: the operation could not be completed on the given database."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültige Datenbank: Der Vorgang konnte in der angegebenen Datenbank nicht abgeschlossen werden."
           }
         }
       }
@@ -159,6 +195,12 @@
             "state" : "translated",
             "value" : "Batch Request Failed: the entire batch was rejected."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stapel-Anfrage fehlgeschlagen: Der gesamte Stapel wurde abgelehnt."
+          }
         }
       }
     },
@@ -181,6 +223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Change Token Expired: the previous server change token is too old."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Änderungs-Token abgelaufen: Das vorherige Server-Änderungs-Token ist zu alt."
           }
         }
       }
@@ -205,6 +253,12 @@
             "state" : "translated",
             "value" : "Constraint Violation: the server rejected the request because of a conflict with a unique field."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einschränkungsverletzung: Der Server hat die Anfrage aufgrund eines Konflikts mit einem eindeutigen Feld abgelehnt."
+          }
         }
       }
     },
@@ -227,6 +281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "There is an unrecoverable problem with your application iCloud account. Please make sure you have iCloud and iCloud Drive enabled in System Preferences. Then remove the application iCloud account and add it again."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es gibt ein nicht behebbares Problem mit Ihrem iCloud-Konto der Anwendung. Stellen Sie sicher, dass iCloud und iCloud Drive in den Systemeinstellungen aktiviert sind. Entfernen Sie dann das iCloud-Konto der Anwendung und fügen Sie es erneut hinzu."
           }
         }
       }
@@ -251,6 +311,12 @@
             "state" : "translated",
             "value" : "Incompatible Version: your app version is older than the oldest version allowed."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inkompatible Version: Ihre App-Version ist älter als die älteste zulässige Version."
+          }
         }
       }
     },
@@ -273,6 +339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Internal Error: a non-recoverable error was encountered by CloudKit."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interner Fehler: CloudKit ist auf einen nicht behebbaren Fehler gestoßen."
           }
         }
       }
@@ -297,6 +369,12 @@
             "state" : "translated",
             "value" : "Invalid Arguments: the specified request contains bad information."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültige Argumente: Die angegebene Anfrage enthält fehlerhafte Informationen."
+          }
         }
       }
     },
@@ -319,6 +397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Limit Exceeded: the request to the server is too large."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limit überschritten: Die Anfrage an den Server ist zu groß."
           }
         }
       }
@@ -343,6 +427,12 @@
             "state" : "translated",
             "value" : "Managed Account Restricted: the request was rejected due to a managed-account restriction."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwaltetes Konto eingeschränkt: Die Anfrage wurde aufgrund einer Einschränkung für verwaltete Konten abgelehnt."
+          }
         }
       }
     },
@@ -365,6 +455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The maximum number of child rows that iCloud can sync is 750. This limit has been exceeded. Please reduce the number of child rows to continue syncing."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die maximale Anzahl von Unterzeilen, die iCloud synchronisieren kann, beträgt 750. Dieses Limit wurde überschritten. Reduzieren Sie die Anzahl der Unterzeilen, um die Synchronisierung fortzusetzen."
           }
         }
       }
@@ -389,6 +485,12 @@
             "state" : "translated",
             "value" : "Missing Entitlement: the app is missing a required entitlement."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehlende Berechtigung: Der App fehlt eine erforderliche Berechtigung."
+          }
         }
       }
     },
@@ -411,6 +513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Network Failure: the internet connection appears to be offline."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netzwerkfehler: Die Internetverbindung scheint offline zu sein."
           }
         }
       }
@@ -435,6 +543,12 @@
             "state" : "translated",
             "value" : "Network Unavailable: the internet connection appears to be offline."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netzwerk nicht verfügbar: Die Internetverbindung scheint offline zu sein."
+          }
         }
       }
     },
@@ -457,6 +571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Not Authenticated: to use the iCloud account, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht authentifiziert: Um das iCloud-Konto zu verwenden, müssen Sie iCloud Drive aktivieren. Gehen Sie zu den Geräteeinstellungen, melden Sie sich bei iCloud an und stellen Sie sicher, dass die iCloud Drive-Funktion in den App-Einstellungen aktiviert ist."
           }
         }
       }
@@ -481,6 +601,12 @@
             "state" : "translated",
             "value" : "Operation Cancelled: the operation was explicitly cancelled."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorgang abgebrochen: Der Vorgang wurde explizit abgebrochen."
+          }
         }
       }
     },
@@ -503,6 +629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Partial Failure: some items failed, but the operation succeeded overall."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teilweiser Fehler: Einige Elemente sind fehlgeschlagen, aber der Vorgang war insgesamt erfolgreich."
           }
         }
       }
@@ -527,6 +659,12 @@
             "state" : "translated",
             "value" : "Participant May Need Verification: you are not a member of the share."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teilnehmer benötigt möglicherweise Verifizierung: Sie sind kein Mitglied der Freigabe."
+          }
         }
       }
     },
@@ -549,6 +687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Permission Failure: to use this app, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berechtigungsfehler: Um diese App zu verwenden, müssen Sie iCloud Drive aktivieren. Gehen Sie zu den Geräteeinstellungen, melden Sie sich bei iCloud an und stellen Sie sicher, dass die iCloud Drive-Funktion in den App-Einstellungen aktiviert ist."
           }
         }
       }
@@ -573,6 +717,12 @@
             "state" : "translated",
             "value" : "Quota Exceeded: saving would exceed your current iCloud storage quota."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontingent überschritten: Das Speichern würde Ihr aktuelles iCloud-Speicherkontingent überschreiten."
+          }
         }
       }
     },
@@ -595,6 +745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reference Violation: the target of a record's parent or share reference was not found."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referenzverletzung: Das Ziel einer übergeordneten oder Freigabe-Referenz eines Datensatzes wurde nicht gefunden."
           }
         }
       }
@@ -619,6 +775,12 @@
             "state" : "translated",
             "value" : "Request Rate Limited: transfers to and from the server are being rate limited at this time."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anfragerate begrenzt: Übertragungen zum und vom Server werden derzeit ratenbegrenzt."
+          }
         }
       }
     },
@@ -641,6 +803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Server Record Changed: the record was rejected because the version on the server is different."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server-Datensatz geändert: Der Datensatz wurde abgelehnt, da die Version auf dem Server anders ist."
           }
         }
       }
@@ -665,6 +833,12 @@
             "state" : "translated",
             "value" : "Server Rejected Request"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server hat Anfrage abgelehnt"
+          }
         }
       }
     },
@@ -687,6 +861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Server Response Lost"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server-Antwort verloren"
           }
         }
       }
@@ -711,6 +891,12 @@
             "state" : "translated",
             "value" : "Service Unavailable: Please try again."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Service nicht verfügbar: Bitte versuchen Sie es erneut."
+          }
         }
       }
     },
@@ -733,6 +919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Too Many Participants: a share cannot be saved because too many participants are attached to the share."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zu viele Teilnehmer: Eine Freigabe kann nicht gespeichert werden, da zu viele Teilnehmer mit der Freigabe verknüpft sind."
           }
         }
       }
@@ -757,6 +949,12 @@
             "state" : "translated",
             "value" : "An unexpected CloudKit error occurred."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein unerwarteter CloudKit-Fehler ist aufgetreten."
+          }
         }
       }
     },
@@ -779,6 +977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unknown iCloud Error"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unbekannter iCloud-Fehler"
           }
         }
       }
@@ -803,6 +1007,12 @@
             "state" : "translated",
             "value" : "Unknown Item: the specified record does not exist."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unbekanntes Element: Der angegebene Datensatz existiert nicht."
+          }
         }
       }
     },
@@ -825,6 +1035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The iCloud data was deleted.  Please remove the application iCloud account and add it again to continue using the application's iCloud support."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die iCloud-Daten wurden gelöscht. Entfernen Sie das iCloud-Konto der Anwendung und fügen Sie es erneut hinzu, um die iCloud-Unterstützung der Anwendung weiterhin zu nutzen."
           }
         }
       }
@@ -849,6 +1065,12 @@
             "state" : "translated",
             "value" : "User Deleted Zone: the user has deleted this zone from the Settings UI."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benutzer hat Zone gelöscht: Der Benutzer hat diese Zone über die Einstellungs-Benutzeroberfläche gelöscht."
+          }
         }
       }
     },
@@ -872,6 +1094,12 @@
             "state" : "translated",
             "value" : "Zone Busy: the server is too busy to handle the zone operation."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zone beschäftigt: Der Server ist zu beschäftigt, um den Zonenvorgang zu bearbeiten."
+          }
         }
       }
     },
@@ -894,6 +1122,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zone Not Found: the specified record zone does not exist on the server."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zone nicht gefunden: Die angegebene Datensatz-Zone existiert nicht auf dem Server."
           }
         }
       }
