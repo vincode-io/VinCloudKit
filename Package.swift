@@ -21,7 +21,6 @@ let package = Package(
 			dependencies: [
 				"VinUtility",
 			],
-			resources: [.copy("Resources")]
 		),
 		.testTarget(
 			name: "VinCloudKitTests",
