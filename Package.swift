@@ -20,7 +20,7 @@ let package = Package(
 			name: "VinCloudKit",             
 			dependencies: [
 				"VinUtility",
-			]
+			],
 		),
 		.testTarget(
 			name: "VinCloudKitTests",

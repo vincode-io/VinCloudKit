@@ -219,7 +219,30 @@ public extension VCKZone {
 		}
 	}
 
-	
+	/// Save a CKRecord
+	@discardableResult
+	func save(_ record: CKRecord) async throws -> CKRecord {
+		guard let database else {
+			throw VCKError.unknown
+		}
+
+		do {
+			return try await database.save(record)
+		} catch {
+			switch VCKResult.refine(error) {
+			case .zoneNotFound:
+				try await createRecordZone()
+				return try await save(record)
+			case .retry(let timeToWait):
+				self.logger.error("\(self.zoneID.zoneName, privacy: .public) zone save subscription retry in \(timeToWait, privacy: .public) seconds.")
+				try await Task.sleep(for: .seconds(timeToWait))
+				return try await save(record)
+			default:
+				throw error
+			}
+		}
+	}
+
 	/// Modify and delete the supplied CKRecords and CKRecord.IDs
 	func modify(modelsToSave: [VCKModel], recordIDsToDelete: [CKRecord.ID], strategy: VCKModifyStrategy) async throws -> ([CKRecord], [CKRecord.ID]) {
 		guard !(modelsToSave.isEmpty && recordIDsToDelete.isEmpty) else {
