@@ -33,6 +33,15 @@ public protocol VCKZoneDelegate: Sendable {
 	func findChangeToken(key: VCKChangeTokenKey) async -> Data?
 	func cloudKitDidModify(changed: [CKRecord], deleted: [CloudKitRecordKey]) async throws;
 	func delete(_: CKRecord.ID) async;
+
+	/// Called after a record zone has been freshly created because one didn't already exist.
+	/// Delegates can use this to seed the newly created zone with existing local data.
+	func zoneDidCreate() async
+}
+
+public extension VCKZoneDelegate {
+	// Default no-op so existing conformers don't have to implement it.
+	func zoneDidCreate() async { }
 }
 
 public typealias CloudKitRecordKey = (recordType: CKRecord.RecordType, recordID: CKRecord.ID)
@@ -157,8 +166,9 @@ public extension VCKZone {
 		guard let database else {
 			throw VCKError.unknown
 		}
-		
+
 		try await database.save(CKRecordZone(zoneID: zoneID))
+		await delegate?.zoneDidCreate()
 	}
 
 	/// Subscribes to zone changes
