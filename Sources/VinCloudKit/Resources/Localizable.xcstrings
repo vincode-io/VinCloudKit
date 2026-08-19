@@ -4,6 +4,12 @@
     "error.text.account-temporarily-unavailable" : {
       "comment" : "Error Message: The iCloud Account is temporarily unavailable.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das iCloud-Konto ist vorübergehend nicht verfügbar."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22,10 +28,16 @@
             "value" : "The iCloud Account is temporarily unavailable."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Das iCloud-Konto ist vorübergehend nicht verfügbar."
+            "state" : "machine_translated",
+            "value" : "iCloud アカウントは一時的に利用できません。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "iCloud 账户暂时不可用。"
           }
         }
       }
@@ -33,6 +45,12 @@
     "error.text.already-shared" : {
       "comment" : "Error Message: Already Shared: a record or share cannot be saved because doing so would cause the same hierarchy of records to exist in multiple shares.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Datensatz oder eine Freigabe kann nicht gespeichert werden, da dies dazu führen würde, dass dieselbe Hierarchie von Datensätzen in mehreren Freigaben existiert."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51,10 +69,16 @@
             "value" : "A record or share cannot be saved because doing so would cause the same hierarchy of records to exist in multiple shares."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ein Datensatz oder eine Freigabe kann nicht gespeichert werden, da dies dazu führen würde, dass dieselbe Hierarchie von Datensätzen in mehreren Freigaben existiert."
+            "state" : "machine_translated",
+            "value" : "レコードまたは共有を保存できません。保存すると、同じレコード階層が複数の共有に存在することになるためです。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "无法保存记录或共享，因为这样做会导致同一记录层级存在于多个共享中。"
           }
         }
       }
@@ -62,6 +86,12 @@
     "error.text.asset-file-modified" : {
       "comment" : "Error Message: Asset File Modified: the content of the specified asset file was modified while being saved.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asset-Datei verändert: Der Inhalt der angegebenen Asset-Datei wurde während des Speicherns verändert."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -80,10 +110,16 @@
             "value" : "Asset File Modified: the content of the specified asset file was modified while being saved."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Asset-Datei verändert: Der Inhalt der angegebenen Asset-Datei wurde während des Speicherns verändert."
+            "state" : "machine_translated",
+            "value" : "アセットファイルが変更されました：指定されたアセットファイルの内容が保存中に変更されました。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "资源文件已修改：指定资源文件的内容在保存过程中被修改。"
           }
         }
       }
@@ -91,6 +127,12 @@
     "error.text.asset-file-not-found" : {
       "comment" : "Error Message: Asset File Not Found: the specified asset file is not found.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asset-Datei nicht gefunden: Die angegebene Asset-Datei wurde nicht gefunden."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -109,10 +151,16 @@
             "value" : "Asset File Not Found: the specified asset file is not found."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Asset-Datei nicht gefunden: Die angegebene Asset-Datei wurde nicht gefunden."
+            "state" : "machine_translated",
+            "value" : "アセットファイルが見つかりません：指定されたアセットファイルが見つかりません。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "找不到资源文件：未找到指定的资源文件。"
           }
         }
       }
@@ -120,6 +168,12 @@
     "error.text.bad-container" : {
       "comment" : "Error Message: Bad Container: the specified container is unknown or unauthorized.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültiger Container: Der angegebene Container ist unbekannt oder nicht autorisiert."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -138,10 +192,16 @@
             "value" : "Bad Container: the specified container is unknown or unauthorised."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ungültiger Container: Der angegebene Container ist unbekannt oder nicht autorisiert."
+            "state" : "machine_translated",
+            "value" : "無効なコンテナ：指定されたコンテナが不明であるか、承認されていません。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "无效的容器：指定的容器未知或未获授权。"
           }
         }
       }
@@ -149,6 +209,12 @@
     "error.text.bad-database" : {
       "comment" : "Error Message: Bad Database: the operation could not be completed on the given database.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültige Datenbank: Der Vorgang konnte in der angegebenen Datenbank nicht abgeschlossen werden."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -167,10 +233,16 @@
             "value" : "Bad Database: the operation could not be completed on the given database."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ungültige Datenbank: Der Vorgang konnte in der angegebenen Datenbank nicht abgeschlossen werden."
+            "state" : "machine_translated",
+            "value" : "無効なデータベース：指定されたデータベースで操作を完了できませんでした。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "无效的数据库：无法在给定的数据库上完成该操作。"
           }
         }
       }
@@ -178,6 +250,12 @@
     "error.text.batch-request-failed" : {
       "comment" : "Error Message: Batch Request Failed: the entire batch was rejected.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stapel-Anfrage fehlgeschlagen: Der gesamte Stapel wurde abgelehnt."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -196,10 +274,16 @@
             "value" : "Batch Request Failed: the entire batch was rejected."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Stapel-Anfrage fehlgeschlagen: Der gesamte Stapel wurde abgelehnt."
+            "state" : "machine_translated",
+            "value" : "バッチリクエストが失敗しました：バッチ全体が拒否されました。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "批量请求失败：整个批次已被拒绝。"
           }
         }
       }
@@ -207,6 +291,12 @@
     "error.text.change-token-expired" : {
       "comment" : "Error Message: Change Token Expired: the previous server change token is too old.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Änderungs-Token abgelaufen: Das vorherige Server-Änderungs-Token ist zu alt."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -225,10 +315,16 @@
             "value" : "Change Token Expired: the previous server change token is too old."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Änderungs-Token abgelaufen: Das vorherige Server-Änderungs-Token ist zu alt."
+            "state" : "machine_translated",
+            "value" : "変更トークンの有効期限が切れました：以前のサーバー変更トークンが古すぎます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "更改令牌已过期：先前的服务器更改令牌过旧。"
           }
         }
       }
@@ -236,6 +332,12 @@
     "error.text.constraint-violation" : {
       "comment" : "Error Message: Constraint Violation: the server rejected the request because of a conflict with a unique field.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einschränkungsverletzung: Der Server hat die Anfrage aufgrund eines Konflikts mit einem eindeutigen Feld abgelehnt."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -254,10 +356,16 @@
             "value" : "Constraint Violation: the server rejected the request because of a conflict with a unique field."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Einschränkungsverletzung: Der Server hat die Anfrage aufgrund eines Konflikts mit einem eindeutigen Feld abgelehnt."
+            "state" : "machine_translated",
+            "value" : "制約違反：一意フィールドとの競合により、サーバーがリクエストを拒否しました。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "违反约束：由于与唯一字段发生冲突，服务器拒绝了该请求。"
           }
         }
       }
@@ -265,6 +373,12 @@
     "error.text.corrupt-account" : {
       "comment" : "Error Message: There is an unrecoverable problem with your application iCloud account. Please make sure you have iCloud and iCloud Drive enabled in System Preferences. Then remove the application iCloud account and add it again.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es gibt ein nicht behebbares Problem mit Ihrem iCloud-Konto der Anwendung. Stellen Sie sicher, dass iCloud und iCloud Drive in den Systemeinstellungen aktiviert sind. Entfernen Sie dann das iCloud-Konto der Anwendung und fügen Sie es erneut hinzu."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -283,10 +397,16 @@
             "value" : "There is an unrecoverable problem with your application iCloud account. Please make sure you have iCloud and iCloud Drive enabled in System Preferences. Then remove the application iCloud account and add it again."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Es gibt ein nicht behebbares Problem mit Ihrem iCloud-Konto der Anwendung. Stellen Sie sicher, dass iCloud und iCloud Drive in den Systemeinstellungen aktiviert sind. Entfernen Sie dann das iCloud-Konto der Anwendung und fügen Sie es erneut hinzu."
+            "state" : "machine_translated",
+            "value" : "アプリの iCloud アカウントに回復不能な問題があります。システム設定で iCloud と iCloud Drive が有効になっていることを確認してください。その後、アプリの iCloud アカウントを削除し、もう一度追加してください。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "您用于本应用的 iCloud 账户出现了无法恢复的问题。请确保已在系统设置中启用 iCloud 和 iCloud Drive。然后移除本应用的 iCloud 账户并重新添加。"
           }
         }
       }
@@ -294,6 +414,12 @@
     "error.text.incompatible-version" : {
       "comment" : "Error Message: Incompatible Version: your app version is older than the oldest version allowed.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inkompatible Version: Ihre App-Version ist älter als die älteste zulässige Version."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -312,10 +438,16 @@
             "value" : "Incompatible Version: your app version is older than the oldest version allowed."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Inkompatible Version: Ihre App-Version ist älter als die älteste zulässige Version."
+            "state" : "machine_translated",
+            "value" : "互換性のないバージョン：お使いのアプリのバージョンが、許可されている最も古いバージョンよりも前のものです。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "版本不兼容：您的应用版本早于所允许的最低版本。"
           }
         }
       }
@@ -323,6 +455,12 @@
     "error.text.internal-error" : {
       "comment" : "Error Message: Internal Error: a nonrecoverable error was encountered by CloudKit.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interner Fehler: CloudKit ist auf einen nicht behebbaren Fehler gestoßen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -341,10 +479,16 @@
             "value" : "Internal Error: a non-recoverable error was encountered by CloudKit."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Interner Fehler: CloudKit ist auf einen nicht behebbaren Fehler gestoßen."
+            "state" : "machine_translated",
+            "value" : "内部エラー：CloudKit で回復不能なエラーが発生しました。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "内部错误：CloudKit 遇到了无法恢复的错误。"
           }
         }
       }
@@ -352,6 +496,12 @@
     "error.text.invalid-arguments" : {
       "comment" : "Error Message: Invalid Arguments: the specified request contains bad information.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültige Argumente: Die angegebene Anfrage enthält fehlerhafte Informationen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -370,10 +520,16 @@
             "value" : "Invalid Arguments: the specified request contains bad information."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ungültige Argumente: Die angegebene Anfrage enthält fehlerhafte Informationen."
+            "state" : "machine_translated",
+            "value" : "無効な引数：指定されたリクエストに誤った情報が含まれています。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "参数无效：指定的请求包含错误信息。"
           }
         }
       }
@@ -381,6 +537,12 @@
     "error.text.limit-exceeded" : {
       "comment" : "Error Message: Limit Exceeded: the request to the server is too large.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limit überschritten: Die Anfrage an den Server ist zu groß."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -399,10 +561,16 @@
             "value" : "Limit Exceeded: the request to the server is too large."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Limit überschritten: Die Anfrage an den Server ist zu groß."
+            "state" : "machine_translated",
+            "value" : "上限を超過しました：サーバーへのリクエストが大きすぎます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "已超出限制：发送到服务器的请求过大。"
           }
         }
       }
@@ -410,6 +578,12 @@
     "error.text.managed-account-restricted" : {
       "comment" : "Error Message: Managed Account Restricted: the request was rejected due to a managed-account restriction.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwaltetes Konto eingeschränkt: Die Anfrage wurde aufgrund einer Einschränkung für verwaltete Konten abgelehnt."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -428,10 +602,16 @@
             "value" : "Managed Account Restricted: the request was rejected due to a managed-account restriction."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verwaltetes Konto eingeschränkt: Die Anfrage wurde aufgrund einer Einschränkung für verwaltete Konten abgelehnt."
+            "state" : "machine_translated",
+            "value" : "管理対象アカウントの制限：管理対象アカウントの制限により、リクエストが拒否されました。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "受管理账户受限：由于受管理账户的限制，该请求被拒绝。"
           }
         }
       }
@@ -439,6 +619,12 @@
     "error.text.max-child-count-exceeded" : {
       "comment" : "Error Message: The maximum number of child rows that iCloud can sync is 750. This limit has been exceeded. Please reduce the number of child rows to continue syncing.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die maximale Anzahl von Unterzeilen, die iCloud synchronisieren kann, beträgt 750. Dieses Limit wurde überschritten. Reduzieren Sie die Anzahl der Unterzeilen, um die Synchronisierung fortzusetzen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -457,10 +643,16 @@
             "value" : "The maximum number of child rows that iCloud can sync is 750. This limit has been exceeded. Please reduce the number of child rows to continue syncing."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Die maximale Anzahl von Unterzeilen, die iCloud synchronisieren kann, beträgt 750. Dieses Limit wurde überschritten. Reduzieren Sie die Anzahl der Unterzeilen, um die Synchronisierung fortzusetzen."
+            "state" : "machine_translated",
+            "value" : "iCloud が同期できる子行の最大数は 750 です。この上限を超えました。同期を続けるには、子行の数を減らしてください。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "iCloud 可同步的子行数量上限为 750。已超出此限制。请减少子行数量以继续同步。"
           }
         }
       }
@@ -468,6 +660,12 @@
     "error.text.missing-entitlement" : {
       "comment" : "Error Message: Missing Entitlement: the app is missing a required entitlement.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehlende Berechtigung: Der App fehlt eine erforderliche Berechtigung."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -486,10 +684,16 @@
             "value" : "Missing Entitlement: the app is missing a required entitlement."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fehlende Berechtigung: Der App fehlt eine erforderliche Berechtigung."
+            "state" : "machine_translated",
+            "value" : "エンタイトルメントの不足：アプリに必要なエンタイトルメントがありません。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "缺少授权：该应用缺少必需的授权。"
           }
         }
       }
@@ -497,6 +701,12 @@
     "error.text.network-failure" : {
       "comment" : "Error Message: Network Failure: the internet connection appears to be offline.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netzwerkfehler: Die Internetverbindung scheint offline zu sein."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -515,10 +725,16 @@
             "value" : "Network Failure: the internet connection appears to be offline."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Netzwerkfehler: Die Internetverbindung scheint offline zu sein."
+            "state" : "machine_translated",
+            "value" : "ネットワーク障害：インターネット接続がオフラインのようです。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "网络故障：互联网连接似乎已断开。"
           }
         }
       }
@@ -526,6 +742,12 @@
     "error.text.network-unavailable" : {
       "comment" : "Error Message: Network Unavailable: the internet connection appears to be offline.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netzwerk nicht verfügbar: Die Internetverbindung scheint offline zu sein."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -544,10 +766,16 @@
             "value" : "Network Unavailable: the internet connection appears to be offline."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Netzwerk nicht verfügbar: Die Internetverbindung scheint offline zu sein."
+            "state" : "machine_translated",
+            "value" : "ネットワークを利用できません：インターネット接続がオフラインのようです。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "网络不可用：互联网连接似乎已断开。"
           }
         }
       }
@@ -555,6 +783,12 @@
     "error.text.not-authenticated" : {
       "comment" : "Error Message: Not Authenticated: to use the iCloud account, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht authentifiziert: Um das iCloud-Konto zu verwenden, müssen Sie iCloud Drive aktivieren. Gehen Sie zu den Geräteeinstellungen, melden Sie sich bei iCloud an und stellen Sie sicher, dass die iCloud Drive-Funktion in den App-Einstellungen aktiviert ist."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -573,10 +807,16 @@
             "value" : "Not Authenticated: to use the iCloud account, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nicht authentifiziert: Um das iCloud-Konto zu verwenden, müssen Sie iCloud Drive aktivieren. Gehen Sie zu den Geräteeinstellungen, melden Sie sich bei iCloud an und stellen Sie sicher, dass die iCloud Drive-Funktion in den App-Einstellungen aktiviert ist."
+            "state" : "machine_translated",
+            "value" : "認証されていません：iCloud アカウントを使用するには、iCloud Drive を有効にする必要があります。デバイスの設定で iCloud にサインインし、アプリの設定で iCloud Drive 機能が有効になっていることを確認してください。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "未通过身份验证：若要使用 iCloud 账户，您必须启用 iCloud Drive。请前往设备“设置”，登录 iCloud，然后在应用设置中确保已启用 iCloud Drive 功能。"
           }
         }
       }
@@ -584,6 +824,12 @@
     "error.text.operation-canceled" : {
       "comment" : "Error Message: Operation Canceled: the operation was explicitly canceled.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorgang abgebrochen: Der Vorgang wurde explizit abgebrochen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -602,10 +848,16 @@
             "value" : "Operation Cancelled: the operation was explicitly cancelled."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vorgang abgebrochen: Der Vorgang wurde explizit abgebrochen."
+            "state" : "machine_translated",
+            "value" : "操作がキャンセルされました：操作が明示的にキャンセルされました。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "操作已取消：该操作已被显式取消。"
           }
         }
       }
@@ -613,6 +865,12 @@
     "error.text.partial-failure" : {
       "comment" : "Error Message: Partial Failure: some items failed, but the operation succeeded overall.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teilweiser Fehler: Einige Elemente sind fehlgeschlagen, aber der Vorgang war insgesamt erfolgreich."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -631,10 +889,16 @@
             "value" : "Partial Failure: some items failed, but the operation succeeded overall."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Teilweiser Fehler: Einige Elemente sind fehlgeschlagen, aber der Vorgang war insgesamt erfolgreich."
+            "state" : "machine_translated",
+            "value" : "部分的な失敗：一部の項目が失敗しましたが、操作は全体として成功しました。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "部分失败：部分项目失败，但操作整体成功。"
           }
         }
       }
@@ -642,6 +906,12 @@
     "error.text.participant-may-need-verification" : {
       "comment" : "Error Message: Participant May Need Verification: you are not a member of the share.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teilnehmer benötigt möglicherweise Verifizierung: Sie sind kein Mitglied der Freigabe."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -660,10 +930,16 @@
             "value" : "Participant May Need Verification: you are not a member of the share."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Teilnehmer benötigt möglicherweise Verifizierung: Sie sind kein Mitglied der Freigabe."
+            "state" : "machine_translated",
+            "value" : "参加者の確認が必要な可能性があります：あなたはこの共有のメンバーではありません。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "参与者可能需要验证：您不是该共享的成员。"
           }
         }
       }
@@ -671,6 +947,12 @@
     "error.text.permission-failure" : {
       "comment" : "Error Message: Permission Failure: to use this app, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berechtigungsfehler: Um diese App zu verwenden, müssen Sie iCloud Drive aktivieren. Gehen Sie zu den Geräteeinstellungen, melden Sie sich bei iCloud an und stellen Sie sicher, dass die iCloud Drive-Funktion in den App-Einstellungen aktiviert ist."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -689,10 +971,16 @@
             "value" : "Permission Failure: to use this app, you must enable iCloud Drive. Go to device Settings, sign in to iCloud, then in the app settings, be sure the iCloud Drive feature is enabled."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Berechtigungsfehler: Um diese App zu verwenden, müssen Sie iCloud Drive aktivieren. Gehen Sie zu den Geräteeinstellungen, melden Sie sich bei iCloud an und stellen Sie sicher, dass die iCloud Drive-Funktion in den App-Einstellungen aktiviert ist."
+            "state" : "machine_translated",
+            "value" : "権限エラー：このアプリを使用するには、iCloud Drive を有効にする必要があります。デバイスの設定で iCloud にサインインし、アプリの設定で iCloud Drive 機能が有効になっていることを確認してください。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "权限错误：要使用本应用，你必须启用 iCloud Drive。请前往设备“设置”，登录 iCloud，然后在应用设置中确保已启用 iCloud Drive 功能。"
           }
         }
       }
@@ -700,6 +988,12 @@
     "error.text.quota-exceeded" : {
       "comment" : "Error Message: Quota Exceeded: saving would exceed your current iCloud storage quota.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontingent überschritten: Das Speichern würde Ihr aktuelles iCloud-Speicherkontingent überschreiten."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -718,10 +1012,16 @@
             "value" : "Quota Exceeded: saving would exceed your current iCloud storage quota."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kontingent überschritten: Das Speichern würde Ihr aktuelles iCloud-Speicherkontingent überschreiten."
+            "state" : "machine_translated",
+            "value" : "クォータ超過：保存すると現在の iCloud ストレージのクォータを超えてしまいます。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "配额已超出：保存操作将超出您当前的 iCloud 存储配额。"
           }
         }
       }
@@ -729,6 +1029,12 @@
     "error.text.reference-violation" : {
       "comment" : "Error Message: Reference Violation: the target of a record's parent or share reference was not found.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referenzverletzung: Das Ziel einer übergeordneten oder Freigabe-Referenz eines Datensatzes wurde nicht gefunden."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -747,10 +1053,16 @@
             "value" : "Reference Violation: the target of a record's parent or share reference was not found."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Referenzverletzung: Das Ziel einer übergeordneten oder Freigabe-Referenz eines Datensatzes wurde nicht gefunden."
+            "state" : "machine_translated",
+            "value" : "参照違反：レコードの親または共有の参照先が見つかりませんでした。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "引用冲突：未找到记录的父级引用或共享引用所指向的目标。"
           }
         }
       }
@@ -758,6 +1070,12 @@
     "error.text.request-rate-limited" : {
       "comment" : "Error Message: Request Rate Limited: transfers to and from the server are being rate limited at this time.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anfragerate begrenzt: Übertragungen zum und vom Server werden derzeit ratenbegrenzt."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -776,10 +1094,16 @@
             "value" : "Request Rate Limited: transfers to and from the server are being rate limited at this time."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anfragerate begrenzt: Übertragungen zum und vom Server werden derzeit ratenbegrenzt."
+            "state" : "machine_translated",
+            "value" : "リクエストレート制限：現在、サーバーとの間の転送がレート制限されています。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "请求速率受限：与服务器之间的数据传输当前受到速率限制。"
           }
         }
       }
@@ -787,6 +1111,12 @@
     "error.text.server-record-changed" : {
       "comment" : "Error Message: Server Record Changed: the record was rejected because the version on the server is different.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server-Datensatz geändert: Der Datensatz wurde abgelehnt, da die Version auf dem Server anders ist."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -805,10 +1135,16 @@
             "value" : "Server Record Changed: the record was rejected because the version on the server is different."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Server-Datensatz geändert: Der Datensatz wurde abgelehnt, da die Version auf dem Server anders ist."
+            "state" : "machine_translated",
+            "value" : "サーバーレコードが変更されました：サーバー上のバージョンが異なるため、レコードが拒否されました。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "服务器记录已更改：由于服务器上的版本不同，该记录被拒绝。"
           }
         }
       }
@@ -816,6 +1152,12 @@
     "error.text.server-rejected-request" : {
       "comment" : "Error Message: Server Rejected Request",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server hat Anfrage abgelehnt"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -834,10 +1176,16 @@
             "value" : "Server Rejected Request"
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Server hat Anfrage abgelehnt"
+            "state" : "machine_translated",
+            "value" : "サーバーがリクエストを拒否しました"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "服务器已拒绝请求"
           }
         }
       }
@@ -845,6 +1193,12 @@
     "error.text.server-response-lost" : {
       "comment" : "Error Message: Server Response Lost",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server-Antwort verloren"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -863,10 +1217,16 @@
             "value" : "Server Response Lost"
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Server-Antwort verloren"
+            "state" : "machine_translated",
+            "value" : "サーバー応答が失われました"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "服务器响应丢失"
           }
         }
       }
@@ -874,6 +1234,12 @@
     "error.text.service-unavailable" : {
       "comment" : "Error Message: Service Unavailable: Please try again.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Service nicht verfügbar: Bitte versuchen Sie es erneut."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -892,10 +1258,16 @@
             "value" : "Service Unavailable: Please try again."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Service nicht verfügbar: Bitte versuchen Sie es erneut."
+            "state" : "machine_translated",
+            "value" : "サービスを利用できません：もう一度お試しください。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "服务不可用：请稍后重试。"
           }
         }
       }
@@ -903,6 +1275,12 @@
     "error.text.too-many-participants" : {
       "comment" : "Error Message: Too Many Participants: a share cannot be saved because too many participants are attached to the share.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zu viele Teilnehmer: Eine Freigabe kann nicht gespeichert werden, da zu viele Teilnehmer mit der Freigabe verknüpft sind."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -921,10 +1299,16 @@
             "value" : "Too Many Participants: a share cannot be saved because too many participants are attached to the share."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zu viele Teilnehmer: Eine Freigabe kann nicht gespeichert werden, da zu viele Teilnehmer mit der Freigabe verknüpft sind."
+            "state" : "machine_translated",
+            "value" : "参加者が多すぎます：共有に参加者が多すぎるため、共有を保存できません。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "参与者过多：由于该共享项附加的参与者过多，无法保存该共享项。"
           }
         }
       }
@@ -932,6 +1316,12 @@
     "error.text.unexpected-cloudkit-error" : {
       "comment" : "Error Message: An unexpected CloudKit error occurred.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein unerwarteter CloudKit-Fehler ist aufgetreten."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -950,10 +1340,16 @@
             "value" : "An unexpected CloudKit error occurred."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ein unerwarteter CloudKit-Fehler ist aufgetreten."
+            "state" : "machine_translated",
+            "value" : "予期しない CloudKit エラーが発生しました。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "发生了意外的 CloudKit 错误。"
           }
         }
       }
@@ -961,6 +1357,12 @@
     "error.text.unknown-cloudkit-error" : {
       "comment" : "Error Message: Unknown iCloud Error",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unbekannter iCloud-Fehler"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -979,10 +1381,16 @@
             "value" : "Unknown iCloud Error"
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unbekannter iCloud-Fehler"
+            "state" : "machine_translated",
+            "value" : "不明な iCloud エラー"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "未知的 iCloud 错误"
           }
         }
       }
@@ -990,6 +1398,12 @@
     "error.text.unknown-item" : {
       "comment" : "Error Message: Unknown Item: the specified record does not exist.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unbekanntes Element: Der angegebene Datensatz existiert nicht."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1008,10 +1422,16 @@
             "value" : "Unknown Item: the specified record does not exist."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unbekanntes Element: Der angegebene Datensatz existiert nicht."
+            "state" : "machine_translated",
+            "value" : "不明な項目：指定されたレコードが存在しません。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "未知项：指定的记录不存在。"
           }
         }
       }
@@ -1019,6 +1439,12 @@
     "error.text.user-deleted-data" : {
       "comment" : "Error Message: The iCloud data was deleted.  Please remove the application iCloud account and add it again to continue using the application's iCloud support.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die iCloud-Daten wurden gelöscht. Entfernen Sie das iCloud-Konto der Anwendung und fügen Sie es erneut hinzu, um die iCloud-Unterstützung der Anwendung weiterhin zu nutzen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1037,10 +1463,16 @@
             "value" : "The iCloud data was deleted.  Please remove the application iCloud account and add it again to continue using the application's iCloud support."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Die iCloud-Daten wurden gelöscht. Entfernen Sie das iCloud-Konto der Anwendung und fügen Sie es erneut hinzu, um die iCloud-Unterstützung der Anwendung weiterhin zu nutzen."
+            "state" : "machine_translated",
+            "value" : "iCloud のデータが削除されました。アプリの iCloud サポートを引き続き使用するには、アプリの iCloud アカウントを削除してから、もう一度追加してください。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "iCloud 数据已被删除。请移除本应用的 iCloud 账户并重新添加，以继续使用本应用的 iCloud 支持。"
           }
         }
       }
@@ -1048,6 +1480,12 @@
     "error.text.user-deleted-zone" : {
       "comment" : "Error Message: User Deleted Zone: the user has deleted this zone from the Settings UI.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benutzer hat Zone gelöscht: Der Benutzer hat diese Zone über die Einstellungs-Benutzeroberfläche gelöscht."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1066,10 +1504,16 @@
             "value" : "User Deleted Zone: the user has deleted this zone from the Settings UI."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Benutzer hat Zone gelöscht: Der Benutzer hat diese Zone über die Einstellungs-Benutzeroberfläche gelöscht."
+            "state" : "machine_translated",
+            "value" : "ユーザーがゾーンを削除しました：ユーザーが「設定」画面でこのゾーンを削除しました。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "用户已删除区域：用户已在“设置”界面中删除此区域。"
           }
         }
       }
@@ -1077,6 +1521,12 @@
     "error.text.zone-busy" : {
       "comment" : "Error Message: Zone Busy: the server is too busy to handle the zone operation.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zone beschäftigt: Der Server ist zu beschäftigt, um den Zonenvorgang zu bearbeiten."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1095,10 +1545,16 @@
             "value" : "Zone Busy: the server is too busy to handle the zone operation."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zone beschäftigt: Der Server ist zu beschäftigt, um den Zonenvorgang zu bearbeiten."
+            "state" : "machine_translated",
+            "value" : "ゾーンがビジー状態です：サーバーが混雑しているため、ゾーン操作を処理できません。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "区域繁忙：服务器过于繁忙，无法处理该区域操作。"
           }
         }
       }
@@ -1106,6 +1562,12 @@
     "error.text.zone-not-found" : {
       "comment" : "Error Message: Zone Not Found: the specified record zone does not exist on the server.",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zone nicht gefunden: Die angegebene Datensatz-Zone existiert nicht auf dem Server."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1124,14 +1586,20 @@
             "value" : "Zone Not Found: the specified record zone does not exist on the server."
           }
         },
-        "de" : {
+        "ja" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zone nicht gefunden: Die angegebene Datensatz-Zone existiert nicht auf dem Server."
+            "state" : "machine_translated",
+            "value" : "ゾーンが見つかりません：指定されたレコードゾーンがサーバー上に存在しません。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "找不到区域：指定的记录区域在服务器上不存在。"
           }
         }
       }
     }
   },
-  "version" : "1.0"
+  "version" : "1.3"
 }
